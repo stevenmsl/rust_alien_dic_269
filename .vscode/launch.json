@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust_alien_dic_269'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust_alien_dic_269",
+                    "--package=rust_alien_dic_269"
+                ],
+                "filter": {
+                    "name": "rust_alien_dic_269",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
